@@ -10,18 +10,20 @@ h2 {
   font-weight: 700;
   font-size: 56px;
 }
-
+h2 {
+  font-weight: 500;
+}
 body {
   background-color: #2c3333;
   margin-top: 200px;
 }
 
-.explore {
+.explore-btn {
   display: flex;
   justify-content: center;
   margin-top: 70px;
 }
-.explore a {
+.explore-btn a {
   text-decoration: none;
   font-family: var(--hero-font);
   color: white;
@@ -30,7 +32,17 @@ body {
   padding: 20px 15px;
 }
 
-.explore a:hover {
+.explore-btn a:hover {
   color: var(--secondary-color);
   border: solid 1px var(--secondary-color);
+}
+
+.explore-section {
+  margin-top: 220px;
+}
+
+.nav-custom {
+  background-color: #525a5b !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 4px 8px rgba(0, 0, 0, 0.18);
+  font-family: "PT Sans Narrow", sans-serif;
 }
