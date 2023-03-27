@@ -1,3 +1,36 @@
-h1 {
-    text-align: center;
+:root {
+  --secondary-color: #a5c9ca;
+  --hero-font: "Edu NSW ACT Foundation", cursive;
+}
+h1,
+h2 {
+  text-align: center;
+  color: white;
+  font-family: var(--hero-font);
+  font-weight: 700;
+  font-size: 56px;
+}
+
+body {
+  background-color: #2c3333;
+  margin-top: 250px;
+}
+
+.explore {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.explore a {
+  text-decoration: none;
+  font-family: var(--hero-font);
+  color: white;
+  font-size: 24px;
+  border: solid 1px #fff;
+  padding: 20px 15px;
+}
+
+.explore a:hover {
+  color: var(--secondary-color);
+  border: solid 1px var(--secondary-color);
 }
