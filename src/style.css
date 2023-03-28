@@ -24,10 +24,18 @@ p {
   font-size: 26px;
 }
 
+@media (max-width: 412px) {
+  h1 {
+    font-size: 41px;
+  }
+  p {
+    text-align: center;
+  }
+}
+
 .explore-btn {
   display: flex;
   justify-content: center;
-  /* margin-top: 70px; */
   margin-top: 50px;
 }
 .explore-btn a {
@@ -37,6 +45,7 @@ p {
   font-size: 24px;
   border: solid 1px #fff;
   padding: 20px 15px;
+  border-radius: 5px;
 }
 
 .explore-btn a:hover {
@@ -53,8 +62,8 @@ p {
   font-size: 24px;
   border: solid 1px #fff;
   padding: 20px 15px;
+  border-radius: 4px;
 }
-
 
 .explore-section {
   margin-top: 220px;
