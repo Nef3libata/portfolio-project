@@ -1,6 +1,8 @@
 :root {
   --secondary-color: #6bc5c9;
+  /* --secondary-color: #ce5c00; */
   --hero-font: "Edu NSW ACT Foundation", cursive;
+  --border-gradient: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
 }
 h1,
 h2 {
@@ -85,8 +87,25 @@ p {
 }
 
 .skill-icon {
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+  border-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%) 30;
+  border-width: 3px;
+  border-style: solid;
+  padding: 38px;
+  margin: 10px;
 }
 
 .skills {
-  margin-left: 100px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+}
+
+.skill-column {
+  margin: 0 68px;
+}
+
+.about-section p {
+  margin-top: 60px;
 }
