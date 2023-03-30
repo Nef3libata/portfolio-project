@@ -1,6 +1,5 @@
 :root {
   --secondary-color: #6bc5c9;
-  /* --secondary-color: #ce5c00; */
   --hero-font: "Edu NSW ACT Foundation", cursive;
   --border-gradient: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
 }
@@ -25,7 +24,14 @@ p {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 26px;
 }
-
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
 @media (max-width: 412px) {
   h1 {
     font-size: 41px;
