@@ -109,3 +109,12 @@ p {
 .about-section p {
   margin-top: 60px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.app-icon {
+  margin: 10px;
+}
